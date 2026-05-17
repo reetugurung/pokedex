@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <div className="bg-[#4472C4] text-white min-h-screen flex flex-col items-center justify-center px-8 py-16">
