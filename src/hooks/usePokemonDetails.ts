@@ -10,6 +10,6 @@ export const usePokemonDetails = (name: string) => {
   return useQuery({
     queryKey: ["pokemon", name],
     queryFn: () => fetchPokemonDetails(name),
-    enabled: !!name, // only fetch when name exists
+    enabled: !!name, 
   });
 };

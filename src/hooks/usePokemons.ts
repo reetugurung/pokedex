@@ -4,7 +4,7 @@ const fetchPokemons = async () => {
   const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=151");
   if (!res.ok) throw new Error("Failed to fetch Pokémon");
   const data = await res.json();
-  return data.results; // returns [{ name, url }]
+  return data.results; 
 };
 
 export const usePokemons = () => {

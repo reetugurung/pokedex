@@ -13,12 +13,12 @@ const HomePage = () => {
           Battle Pokemon is a fun and engaging way to battle between pokemons,
           whether for casual play or serious competition between the pokemons.
         </p>
-        <Link
-          to="/battle"
-          className="inline-block bg-white text-blue-500 font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-700 hover transition-all duration-300"
-        >
-          Start Battle
-        </Link>
+        <a 
+  href="#battle" 
+  className="mt-12 bg-white text-[#4472C4] px-6 py-3 rounded-full font-semibold shadow-md hover:bg-transparent hover:text-white border-2 border-white transition inline-block"
+>
+  Start Your Battle 
+</a>
       </div>
 
       

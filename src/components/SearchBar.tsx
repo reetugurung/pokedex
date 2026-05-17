@@ -13,4 +13,4 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
   );
 };
 
-export default SearchBar;
+export default SearchBar; 

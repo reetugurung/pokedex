@@ -55,10 +55,12 @@ const About = () => {
       </div>
 
       
-            <Link to="/battle"
-        className="mt-12 bg-white text-[#4472C4] px-6 py-3 rounded-full font-semibold shadow-md hover:bg-transparent hover:text-white border-2 border-white transition">
-        Start Your Battle Journey
-      </Link>
+            <a 
+  href="#battle" 
+  className="mt-12 bg-white text-[#4472C4] px-6 py-3 rounded-full font-semibold shadow-md hover:bg-transparent hover:text-white border-2 border-white transition inline-block"
+>
+  Start Your Battle Journey
+</a>
     </div>
   );
 };
